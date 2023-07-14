@@ -21,7 +21,7 @@ EXPOSE 5000
 CMD python ./app.py
 ```
 
-## Build for image
+## Build for Image
 
 ```shell
 docker image build -t cemkuyucuoglu/akademi2023 .
@@ -29,7 +29,7 @@ docker image ls
 docker container run --rm -d -p 80:5000 cemkuyucuoglu/akademi2023
 ```
 
-## Push to files for github
+## Push to Files for Github
 
 ```shell
 git init
